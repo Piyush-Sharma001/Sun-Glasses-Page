@@ -1,0 +1,92 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     background-image: url("https://images.pexels.com/photos/1132391/pexels-photo-1132391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 0px -80px;
+     margin: 0;
+     padding: 0;
+ }
+
+ .navbar-brand {
+     font-size: 30px;
+     font-weight: bold;
+     font-family: 'Rubik Burned', system-ui;
+     color: black;
+     text-decoration: none;
+     position: absolute;
+     top: 15px;
+     left: 20px;
+ }
+
+ i {
+     font-size: 35px;
+ }
+
+ nav ul {
+     display: block;
+     background-color: rgb(63 63 52 / 38%);
+     height: 75px;
+ }
+
+ nav ul li {
+     display: inline-block;
+     font-size: medium;
+     list-style: none;
+     position: relative;
+     top: 25px;
+     left: 600px;
+ }
+
+ nav ul li a {
+     color: white;
+     text-decoration: none;
+     padding: 1px 30px;
+ }
+
+ .mainline {
+     position: absolute;
+     top: 190px;
+     left: 20px;
+ }
+
+ .mainline h1 {
+     font-size: 50px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-weight: bold;
+     color: rgb(0, 0, 0);
+     width: 40%;
+ }
+
+ .mainline h4 {
+     margin-bottom: 12px;
+     margin-left: 12px;
+     font-size: 20px;
+     font-weight: 600;
+     color: rgb(0, 0, 0);
+ }
+
+ .mainline>button {
+     background-color: rgb(0, 0, 0);
+     color: white;
+     margin: 15px 5px;
+     height: 43px;
+     width: 122px;
+     padding: 14px 11px;
+     border-radius: 17px;
+     transition: background-color 0.3s, transform 0.3s;
+     /* animation-name: buttoneffect;
+        animation: duration 1s;
+        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+        animation-iteration-count:infinite; */
+ }
+
+ .mainline>button:hover {
+     transform: scale(2deg);
+     color: black;
+     background-color: white;
+ }
